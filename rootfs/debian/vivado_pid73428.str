@@ -1,0 +1,1883 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:54:30 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 73428
+License: Customer
+
+Current time: 	Thu Mar 28 21:29:31 EDT 2019
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: PRETTY_NAME="Debian GNU/Linux 9 (stretch)"
+OS Version: 4.9.0-8-amd64
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: :0.0
+Screen size: 1920x1200
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 48 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/mnt/workspace/Xilinx/Vivado/2017.4/tps/lnx64/jre
+JVM executable location: 	/mnt/workspace/Xilinx/Vivado/2017.4/tps/lnx64/jre/bin/java
+
+User name: 	root
+User home directory: /root
+User working directory: /mnt/workspace/osrc-lab/scripts/rootfs/debian
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /mnt/workspace/Xilinx/Vivado
+HDI_APPROOT: /mnt/workspace/Xilinx/Vivado/2017.4
+RDI_DATADIR: /mnt/workspace/Xilinx/Vivado/2017.4/data
+RDI_BINDIR: /mnt/workspace/Xilinx/Vivado/2017.4/bin
+
+Vivado preferences file location: /root/.Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: /root/.Xilinx/Vivado/2017.4/
+Vivado layouts directory: /root/.Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	/mnt/workspace/Xilinx/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	/mnt/workspace/osrc-lab/scripts/rootfs/debian/vivado.log
+Vivado journal file location: 	/mnt/workspace/osrc-lab/scripts/rootfs/debian/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-73428-osrc
+
+GUI allocated memory:	149 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 809 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 53 MB (+53564kb) [00:00:12]
+// [Engine Memory]: 808 MB (+695302kb) [00:00:12]
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 812 MB. GUI used memory: 32 MB. Current time: 3/28/19 9:29:34 PM EDT
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.xpr", 2); // q (O, cj)
+// bs (cj):  Open Project : addNotify
+// Opening Vivado Project: /home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.xpr. Version: Vivado v2017.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 947 MB (+104337kb) [00:00:34]
+// [GUI Memory]: 61 MB (+5031kb) [00:00:36]
+// [GUI Memory]: 69 MB (+4730kb) [00:00:36]
+// [GUI Memory]: 80 MB (+8384kb) [00:00:36]
+// Tcl Message: open_project /home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/osrc/zed_prj/hdl-2018_r1/library'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/mnt/workspace/Xilinx/Vivado/2017.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 997 MB. GUI used memory: 52 MB. Current time: 3/28/19 9:29:58 PM EDT
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 6146.023 ; gain = 159.828 ; free physical = 71 ; free virtual = 2651 
+// [Engine Memory]: 999 MB (+3871kb) [00:00:42]
+// Project name: fmcomms2_zed; location: /home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed; part: xc7z020clg484-1
+// Elapsed time: 21 seconds
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 85 MB (+573kb) [00:00:44]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (cj)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cj): Launch SDK: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton("OptionPane.button", "OK"); // JButton (A, H)
+// Elapsed time: 12 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+// 'o' command handler elapsed time: 16 seconds
+dismissDialog("Launch SDK"); // aa (cj)
+// Tcl Message: launch_sdk -workspace /home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.sdk -hwspec /home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.sdk/system_top.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.sdk -hwspec /home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.sdk/system_top.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 4000 ms.
+// [GUI Memory]: 90 MB (+1697kb) [00:05:28]
+// [GUI Memory]: 96 MB (+791kb) [00:15:23]
+// [GUI Memory]: 101 MB (+91kb) [00:27:33]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,025 MB. GUI used memory: 52 MB. Current time: 3/28/19 10:00:02 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,026 MB. GUI used memory: 49 MB. Current time: 3/28/19 10:30:03 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,026 MB. GUI used memory: 48 MB. Current time: 3/28/19 11:00:05 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,034 MB. GUI used memory: 48 MB. Current time: 3/28/19 11:30:06 PM EDT
+// [GUI Memory]: 106 MB (+40kb) [02:30:19]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,034 MB. GUI used memory: 48 MB. Current time: 3/29/19 12:00:06 AM EDT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,034 MB. GUI used memory: 48 MB. Current time: 3/29/19 12:30:06 AM EDT
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,034 MB. GUI used memory: 49 MB. Current time: 3/29/19 1:36:22 AM EDT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,034 MB. GUI used memory: 48 MB. Current time: 3/29/19 2:06:23 AM EDT
+// WARNING: HTimer (MainWindowUtils Timer) is taking too long to process. Increasing delay to 11000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,034 MB. GUI used memory: 48 MB. Current time: 3/29/19 2:36:24 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,034 MB. GUI used memory: 48 MB. Current time: 3/29/19 3:05:14 AM EDT
+// [Engine Memory]: 1,050 MB (+1180kb) [05:38:07]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,050 MB. GUI used memory: 48 MB. Current time: 3/29/19 3:07:24 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,050 MB. GUI used memory: 48 MB. Current time: 3/29/19 3:37:24 AM EDT
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// Elapsed time: 22650 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+// PAPropertyPanels.initPanels (system_top.v) elapsed time: 1.5s
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bs (cj):  Open Block Design : addNotify
+// Tcl Message: open_bd_design {/home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.srcs/sources_1/bd/system/system.bd} 
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// Tcl Message: Adding cell -- xilinx.com:ip:processing_system7:5.5 - sys_ps7 
+// TclEventType: RSB_PROPERTY_CHANGE
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 5000 ms.
+// Tcl Message: Adding cell -- xilinx.com:ip:axi_iic:2.0 - axi_iic_main Adding cell -- analog.com:user:util_i2c_mixer:1.0 - sys_i2c_mixer 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding cell -- xilinx.com:ip:xlconcat:2.1 - sys_concat_intc Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - sys_rstgen Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - sys_logic_inv Adding cell -- analog.com:user:axi_clkgen:1.0 - axi_hdmi_clkgen Adding cell -- analog.com:user:axi_hdmi_tx:1.0 - axi_hdmi_core Adding cell -- xilinx.com:ip:axi_vdma:6.3 - axi_hdmi_dma Adding cell -- xilinx.com:ip:clk_wiz:5.4 - sys_audio_clkgen Adding cell -- analog.com:user:axi_spdif_tx:1.0 - axi_spdif_tx_core Adding cell -- analog.com:user:axi_i2s_adi:1.0 - axi_i2s_adi Adding cell -- xilinx.com:ip:axi_iic:2.0 - axi_iic_fmc 
+// TclEventType: LOAD_FEATURE
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 6000 ms.
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc Successfully read diagram <system> from BD file </home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.srcs/sources_1/bd/system/system.bd> 
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 7000 ms.
+// TclEventType: RSB_OPEN_DIAGRAM
+// PAPropertyPanels.initPanels (system_top.v) elapsed time: 0.2s
+// TclEventType: RSB_CONNECTION_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,097 MB. GUI used memory: 105 MB. Current time: 3/29/19 3:48:55 AM EDT
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:28 . Memory (MB): peak = 6255.852 ; gain = 48.613 ; free physical = 79 ; free virtual = 2166 
+// 'bA' command handler elapsed time: 33 seconds
+// Elapsed time: 34 seconds
+dismissDialog("Open Block Design"); // bs (cj)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_clkgen_clk_0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_clkgen_clk_0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_dma_fifo_wr_overflow 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_dma_fifo_wr_overflow 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_dac_valid_q0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_dac_valid_i1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_dma_fifo_wr_overflow 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_dma_fifo_wr_overflow 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_dma_fifo_wr_overflow 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_dma_fifo_wr_overflow 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_dac_valid_q0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_dac_valid_q0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /tdd_sync_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /tdd_sync_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /gpio_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /gpio_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdo_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdo_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /gpio_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /gpio_i_1 
+// PAPropertyPanels.initPanels (sys_ps7) elapsed time: 0.2s
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// N (cj):  Re-customize IP : addNotify
+// [Engine Memory]: 1,105 MB (+3188kb) [06:19:50]
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// r (cj): Re-customize IP: addNotify
+// cm (r): Configuration Presets: addNotify
+// [Engine Memory]: 1,162 MB (+1898kb) [06:19:59]
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,163 MB. GUI used memory: 68 MB. Current time: 3/29/19 3:49:18 AM EDT
+// Elapsed time: 17 seconds
+dismissDialog("Re-customize IP"); // N (cj)
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // k (ci, r)
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // k (ci, r)
+selectButton("Peripheral I/O Pins", "Peripheral I/O Pins"); // k (ci, r)
+selectButton("Peripheral I/O Pins", "Peripheral I/O Pins"); // k (ci, r)
+selectButton("Peripheral I/O Pins", "Peripheral I/O Pins"); // k (ci, r)
+selectButton("Peripheral I/O Pins", "Peripheral I/O Pins"); // k (ci, r)
+// [Engine Memory]: 1,254 MB (+35432kb) [06:20:06]
+// [GUI Memory]: 133 MB (+23053kb) [06:20:11]
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // k (ci, r)
+selectButton("Zynq Block Design", "Zynq Block Design"); // k (ci, r)
+selectButton("Zynq Block Design", "Zynq Block Design"); // k (ci, r)
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // k (ci, r)
+// [GUI Memory]: 142 MB (+2483kb) [06:20:21]
+selectButton("DDR Configuration", "DDR Configuration"); // k (ci, r)
+selectButton("DDR Configuration", "DDR Configuration"); // k (ci, r)
+selectButton("Clock Configuration", "Clock Configuration"); // k (ci, r)
+selectButton("Clock Configuration", "Clock Configuration"); // k (ci, r)
+selectTab(PAResourceAtoD.ClkConfigMainPanel_TABBED_PANE, PAResourceAtoD.ClkConfigMainPanel_ADVANCED_CLOCKING, "Advanced Clocking", 1); // i (p, r)
+selectTab(PAResourceAtoD.ClkConfigMainPanel_TABBED_PANE, PAResourceAtoD.ClkConfigMainPanel_BASIC_CLOCKING, "Basic Clocking", 0); // i (p, r)
+// [GUI Memory]: 152 MB (+2516kb) [06:20:41]
+expandTreeTable(PAResourceAtoD.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks", 0); // A (O, r)
+selectTreeTable(PAResourceAtoD.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "CPU ; ARM PLL ; 666.666667 ; 666.666687 ; 50.0 : 667.0 ; Processor/Memory Clocks", 1, "ARM PLL", 1, false); // A (O, r)
+// [GUI Memory]: 164 MB (+5008kb) [06:20:51]
+selectTreeTable(PAResourceAtoD.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "CPU ; ARM PLL ; 666.666667 ; 666.666687 ; 50.0 : 667.0 ; Processor/Memory Clocks", 1, "666.666667", 2, false); // A (O, r)
+selectTreeTable(PAResourceAtoD.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "CPU ; ARM PLL ; 666.666667 ; 666.666687 ; 50.0 : 667.0 ; Processor/Memory Clocks", 1, "666.666687", 3, false); // A (O, r)
+expandTreeTable(PAResourceAtoD.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "CPU ; ARM PLL ; 666.666667 ; 666.666687 ; 50.0 : 667.0 ; Processor/Memory Clocks", 1); // A (O, r)
+selectTreeTable(PAResourceAtoD.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "CPU ; ARM PLL ; 666.666667 ; 666.666687 ; 50.0 : 667.0 ; Processor/Memory Clocks", 1, "666.666687", 3, false, false, false, false, false, true); // A (O, r) - Double Click
+// Elapsed time: 23 seconds
+selectTab(PAResourceAtoD.ClkConfigMainPanel_TABBED_PANE, PAResourceAtoD.ClkConfigMainPanel_ADVANCED_CLOCKING, "Advanced Clocking", 1); // i (p, r)
+selectTab(PAResourceAtoD.ClkConfigMainPanel_TABBED_PANE, PAResourceAtoD.ClkConfigMainPanel_BASIC_CLOCKING, "Basic Clocking", 0); // i (p, r)
+// Elapsed time: 17 seconds
+selectTreeTable(PAResourceAtoD.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "DDR ; DDR PLL ; 533.333313 ; 533.333374 ; 200.000000 : 534.000000 ; Processor/Memory Clocks", 2, "DDR", 0, false); // A (O, r)
+selectButton("SMC Timing Calculation", "SMC Timing Calculation"); // k (ci, r)
+selectButton("SMC Timing Calculation", "SMC Timing Calculation"); // k (ci, r)
+selectButton("DDR Configuration", "DDR Configuration"); // k (ci, r)
+// Elapsed time: 70 seconds
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // k (ci, r)
+selectButton("Peripheral I/O Pins", "Peripheral I/O Pins"); // k (ci, r)
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // k (ci, r)
+selectButton("Zynq Block Design", "Zynq Block Design"); // k (ci, r)
+selectButton("Peripheral I/O Pins", "Peripheral I/O Pins"); // k (ci, r)
+selectButton("MIO Configuration", "MIO Configuration"); // k (ci, r)
+selectButton("MIO Configuration", "MIO Configuration"); // k (ci, r)
+selectButton("Peripheral I/O Pins", "Peripheral I/O Pins"); // k (ci, r)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 4000 ms.
+selectButton("Interrupts", "Interrupts"); // k (ci, r)
+selectButton("Interrupts", "Interrupts"); // k (ci, r)
+expandTreeTable(PAResourceEtoH.GICTreeTablePanel_GIC_TREE_TABLE, "Fabric Interrupts ;  ; Enable PL Interrupts to PS and vice versa", 0); // an (O, r)
+expandTreeTable(PAResourceEtoH.GICTreeTablePanel_GIC_TREE_TABLE, "PL-PS Interrupt Ports ; PL-PS Interrupt Ports ; PL-PS Interrupt Ports", 1); // an (O, r)
+expandTreeTable(PAResourceEtoH.GICTreeTablePanel_GIC_TREE_TABLE, "PS-PL Interrupt Ports ; PS-PL Interrupt Ports ; PS-PL Interrupt Ports", 7); // an (O, r)
+// Elapsed time: 16 seconds
+collapseTreeTable(PAResourceEtoH.GICTreeTablePanel_GIC_TREE_TABLE, "PS-PL Interrupt Ports ; PS-PL Interrupt Ports ; PS-PL Interrupt Ports", 7); // an (O, r)
+// Elapsed time: 18 seconds
+selectTreeTable(PAResourceEtoH.GICTreeTablePanel_GIC_TREE_TABLE, "IRQ_F2P[15:0] ; [91:84], [68:61] ; Enables 16-bit shared interrupt port from the PL. MSB is assigned the highest Interrupt ID of 91", 2, "IRQ_F2P[15:0]", 0, false); // an (O, r)
+// Elapsed time: 16 seconds
+selectTreeTable(PAResourceEtoH.GICTreeTablePanel_GIC_TREE_TABLE, "Core0_nFIQ ; 28 ; Enables fast private interrupt signal for CPU0 from the PL", 3, "Core0_nFIQ", 0, false); // an (O, r)
+// [GUI Memory]: 174 MB (+1601kb) [06:25:32]
+// Elapsed time: 313 seconds
+selectTreeTable(PAResourceEtoH.GICTreeTablePanel_GIC_TREE_TABLE, "Core0_nIRQ ; 31 ; Enables private interrupt signal for CPU0 from the PL", 4, "Core0_nIRQ", 0, false); // an (O, r)
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Elapsed time: 610 seconds
+selectButton(PAResourceAtoD.CustomizeCoreDialog_DOCUMENTATION, "Documentation"); // B (f, r)
+selectButton(PAResourceAtoD.CustomizeCoreDialog_DOCUMENTATION, "Documentation"); // B (f, r)
+selectMenuItem(PAResourceCommand.PACommandNames_SHOW_PRODUCT_GUIDE, "Product Guide"); // ac (ai, r)
+// Run Command: PAResourceCommand.PACommandNames_SHOW_PRODUCT_GUIDE
+// Elapsed time: 20 seconds
+selectButton("Peripheral I/O Pins", "Peripheral I/O Pins"); // k (ci, r)
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // k (ci, r)
+expandTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "General ; General ; General", 0); // aA (O, r)
+// Elapsed time: 11 seconds
+collapseTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "General ; General ; General", 0); // aA (O, r)
+selectButton("Zynq Block Design", "Zynq Block Design"); // k (ci, r)
+// Elapsed time: 10 seconds
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "UART 1 ; MIO 48 .. 49 ;  ;  ;  ;  ;  ; ", 9, "MIO 48 .. 49", 1, true); // aX (O, r) - Node
+selectComboBox("PCW UART1 UART1 IO (PCW_UART1_UART1_IO)", "EMIO", 0); // y (aX, r)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 5000 ms.
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "I2C 0 ;  ;  ;  ;  ;  ;  ; ", 10, (String) null, 3, false); // aX (O, r)
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "UART 1 ; EMIO ;  ;  ;  ;  ;  ; ", 9, (String) null, 2, true); // aX (O, r) - Node
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "UART 1 ; EMIO ;  ;  ;  ;  ;  ; ", 9, (String) null, 2, true); // aX (O, r) - Node
+expandTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "UART 1 ; EMIO ;  ;  ;  ;  ;  ; ", 9); // aX (O, r)
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "UART 1 ; EMIO ;  ;  ;  ;  ;  ; ", 9, (String) null, 2, true, false, false, false, false, true); // aX (O, r) - Double Click - Node
+// [GUI Memory]: 184 MB (+1459kb) [06:40:45]
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Modem signals ;  ;  ;  ;  ;  ;  ; ", 10, "Modem signals", 0, false); // aX (O, r)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 6000 ms.
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Modem signals ; EMIO ;  ;  ;  ;  ;  ; ", 10, "EMIO", 1, false); // aX (O, r)
+selectComboBox("PCW UART1 GRP FULL IO (PCW_UART1_GRP_FULL_IO)", "EMIO", 0); // y (aX, r)
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Modem signals ; EMIO ;  ;  ;  ;  ;  ; ", 10, "Modem signals", 0, false); // aX (O, r)
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Modem signals ;  ;  ;  ;  ;  ;  ; ", 10, "Modem signals", 0, false); // aX (O, r)
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Modem signals ; EMIO ;  ;  ;  ;  ;  ; ", 10, "Modem signals", 0, false); // aX (O, r)
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "UART 1 ; EMIO ;  ;  ;  ;  ;  ; ", 9, (String) null, 3, true); // aX (O, r) - Node
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 7000 ms.
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "UART 1 ; EMIO ;  ;  ;  ;  ;  ; ", 9, "UART 1", 0, true); // aX (O, r) - Node
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "UART 1 ;  ;  ;  ;  ;  ;  ; ", 9, "UART 1", 0, true); // aX (O, r) - Node
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "UART 1 ; EMIO ;  ;  ;  ;  ;  ; ", 9, "UART 1", 0, true); // aX (O, r) - Node
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 8000 ms.
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "UART 1 ;  ;  ;  ;  ;  ;  ; ", 9, "UART 1", 0, true); // aX (O, r) - Node
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "UART 1 ; EMIO ;  ;  ;  ;  ;  ; ", 9, "UART 1", 0, true); // aX (O, r) - Node
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "UART 1 ; EMIO ;  ;  ;  ;  ;  ; ", 9, "UART 1", 0, true, false, false, false, false, true); // aX (O, r) - Double Click - Node
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "UART 1 ; EMIO ;  ;  ;  ;  ;  ; ", 9, "UART 1", 0, true); // aX (O, r) - Node
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "UART 1 ;  ;  ;  ;  ;  ;  ; ", 9, "UART 1", 0, true); // aX (O, r) - Node
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "UART 1 ; EMIO ;  ;  ;  ;  ;  ; ", 9, "EMIO", 1, true); // aX (O, r) - Node
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 9000 ms.
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "SPI 1 ; EMIO ;  ;  ;  ;  ;  ; ", 14, "EMIO", 1, true); // aX (O, r) - Node
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "SPI 0 ; EMIO ;  ;  ;  ;  ;  ; ", 13, (String) null, 3, true); // aX (O, r) - Node
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cj)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_concat_intc_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_concat_intc_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_MOSI_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_MOSI_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI1_SS_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data_e 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data_e 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// PAPropertyPanels.initPanels (hdmi_out_clk) elapsed time: 0.2s
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// Elapsed time: 48 seconds
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[system, Ports, hdmi_out_clk]", 11, false); // i (O, cj)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[system, Ports, hdmi_out_clk]", 11, false, false, false, false, false, true); // i (O, cj) - Double Click
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[system, Ports, hdmi_out_clk]", 11, false); // i (O, cj)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[system, Ports, hdmi_out_clk]", 11, false, false, false, false, false, true); // i (O, cj) - Double Click
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[system, Ports, hdmi_out_clk]", 11, false); // i (O, cj)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[system, Ports, hdmi_out_clk]", 11, false, false, false, false, false, true); // i (O, cj) - Double Click
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data_e 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data_e 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data_e 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data_e 
+// Elapsed time: 11 seconds
+setText(PAResourceQtoS.RSBExternalPortPropPanels_NAME, "hdmi_out_clk"); // X (N, cj)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_ready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_ready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data_e 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data_e 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data_e 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data_e 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// Elapsed time: 357 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // k (j, cj)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1, false, true); // k (j, cj) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // k (j, cj)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // U (Q, cj)
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // U (Q, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,266 MB. GUI used memory: 111 MB. Current time: 3/29/19 4:19:20 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,266 MB. GUI used memory: 111 MB. Current time: 3/29/19 4:49:21 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,266 MB. GUI used memory: 110 MB. Current time: 3/29/19 5:19:21 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,266 MB. GUI used memory: 110 MB. Current time: 3/29/19 5:49:21 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,266 MB. GUI used memory: 111 MB. Current time: 3/31/19 10:14:28 PM EDT
+// Elapsed time: 237338 seconds
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "axi_hdmi_dma ;  ;  ;  ;  ; ", 12, "axi_hdmi_dma", 0, true); // g (O, cj) - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k (j, cj)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// Elapsed time: 54 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 11, true); // u (O, cj) - Node
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 3); // u (O, cj)
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[system, axi_hdmi_clkgen]", 75, true); // i (O, cj) - Node
+// [GUI Memory]: 195 MB (+1988kb) [72:45:17]
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 11, true); // u (O, cj) - Node
+// Elapsed time: 162 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // U (q, cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // U (q, cj)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_ready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_ready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_ready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_ready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data_e 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data_e 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_ready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_ready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_ready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_ready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_ready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_ready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_ready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_ready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_ready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_ready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_concat_intc_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_concat_intc_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_iic_main_iic2intc_irpt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_iic_main_iic2intc_irpt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_iic_main_iic2intc_irpt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_iic_main_iic2intc_irpt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_09_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_09_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_09_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_09_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_dma_m_axis_mm2s_tvalid 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_08_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_08_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_dac_upack_dac_valid_out_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_dac_upack_dac_valid_out_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_02_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_02_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_00_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_00_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_00_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_00_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_08_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_08_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_03_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_03_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_01_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_01_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_00_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_00_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_00_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_00_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// [GUI Memory]: 210 MB (+5541kb) [72:48:28]
+// Elapsed time: 27 seconds
+selectTree(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_PANEL, "[root, system_axi_hdmi_core_0_hdmi_out_clk (1), axi_hdmi_core/hdmi_out_clk, hdmi_out_clk]", 4, false); // dW (O, cj)
+selectTree(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_PANEL, "[root, system_axi_hdmi_core_0_hdmi_out_clk (1), axi_hdmi_core/hdmi_out_clk, hdmi_out_clk]", 4, false); // dW (O, cj)
+selectTree(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_PANEL, "[root, system_axi_hdmi_core_0_hdmi_out_clk (1), axi_hdmi_core/hdmi_out_clk, hdmi_out_clk]", 4, false, false, false, false, false, true); // dW (O, cj) - Double Click
+selectTree(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_PANEL, "[root, system_axi_hdmi_core_0_hdmi_out_clk (1), axi_hdmi_core/hdmi_out_clk, hdmi_out_clk]", 4, false); // dW (O, cj)
+selectTree(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_PANEL, "[root, system_axi_hdmi_core_0_hdmi_out_clk (1), axi_hdmi_core/hdmi_out_clk, hdmi_out_clk]", 4, false); // dW (O, cj)
+selectTree(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_PANEL, "[root, system_axi_hdmi_core_0_hdmi_out_clk (1), axi_hdmi_core/hdmi_out_clk, hdmi_out_clk]", 4, false); // dW (O, cj)
+// PAPropertyPanels.initPanels (hdmi_out_clk) elapsed time: 0.2s
+selectTree(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_PANEL, "[root, system_axi_hdmi_core_0_hdmi_out_clk (1), axi_hdmi_core/hdmi_out_clk]", 3, true); // dW (O, cj) - Node
+selectTree(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_PANEL, "[root, system_axi_hdmi_core_0_hdmi_out_clk (1), axi_hdmi_core/hdmi_out_clk]", 3, true, false, false, false, false, true); // dW (O, cj) - Double Click - Node
+selectTree(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_PANEL, "[root, system_axi_hdmi_core_0_hdmi_out_clk (1), axi_hdmi_core/hdmi_out_clk]", 3, true); // dW (O, cj) - Node
+selectTree(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_PANEL, "[root, system_axi_hdmi_core_0_hdmi_out_clk (1), axi_hdmi_core/hdmi_out_clk]", 3, true, false, false, false, false, true); // dW (O, cj) - Double Click - Node
+selectTree(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_PANEL, "[root, system_axi_hdmi_core_0_hdmi_out_clk (1), axi_hdmi_core/hdmi_out_clk]", 3, true); // dW (O, cj) - Node
+selectTree(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_PANEL, "[root, system_axi_hdmi_core_0_hdmi_out_clk (1), axi_hdmi_core/hdmi_out_clk]", 3, true); // dW (O, cj) - Node
+selectTree(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_PANEL, "[root, system_axi_hdmi_clkgen_0_clk_0 (1)]", 1, true); // dW (O, cj) - Node
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_dac_upack_dac_valid 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_dac_upack_dac_valid 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_00_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_00_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_clkgen_clk_0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_clkgen_clk_0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_ready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_ready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_ready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_ready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_dac_dma_fifo_rd_underflow 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_divclk_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_divclk_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_divclk_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_clkgen_clk_0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_clkgen_clk_0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_ready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_ready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_ready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_ready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_ready 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data_e 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_audio_clkgen_clk_out1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_audio_clkgen_clk_out1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_audio_clkgen_clk_out1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_audio_clkgen_clk_out1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /gpio_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /gpio_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /gpio_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /gpio_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /gpio_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /gpio_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /gpio_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /gpio_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /gpio_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_spdif_tx_core_spdif_tx_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_spdif_tx_core_spdif_tx_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI1_MOSI_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_concat_intc_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_concat_intc_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_concat_intc_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_concat_intc_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_sdo_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_sdo_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_sdo_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_sdo_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI0_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_clk_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_concat_intc_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_concat_intc_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_spdif_tx_core_spdif_tx_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// N (cj):  Re-customize IP : addNotify
+// r (cj): Re-customize IP: addNotify
+// cm (r): Configuration Presets: addNotify
+// Elapsed time: 14 seconds
+dismissDialog("Re-customize IP"); // N (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,289 MB. GUI used memory: 123 MB. Current time: 3/31/19 10:18:05 PM EDT
+selectButton("Peripheral I/O Pins", "Peripheral I/O Pins"); // k (ci, r)
+selectButton("Peripheral I/O Pins", "Peripheral I/O Pins"); // k (ci, r)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 10000 ms.
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // k (ci, r)
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // k (ci, r)
+selectButton("Zynq Block Design", "Zynq Block Design"); // k (ci, r)
+selectButton("Zynq Block Design", "Zynq Block Design"); // k (ci, r)
+selectButton("Zynq Block Design", "Zynq Block Design"); // k (ci, r)
+selectButton("SMC Timing Calculation", "SMC Timing Calculation"); // k (ci, r)
+selectButton("SMC Timing Calculation", "SMC Timing Calculation"); // k (ci, r)
+selectButton("Interrupts", "Interrupts"); // k (ci, r)
+selectButton("Interrupts", "Interrupts"); // k (ci, r)
+selectButton("Peripheral I/O Pins", "Peripheral I/O Pins"); // k (ci, r)
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // k (ci, r)
+selectButton("Clock Configuration", "Clock Configuration"); // k (ci, r)
+selectButton("Clock Configuration", "Clock Configuration"); // k (ci, r)
+selectTab(PAResourceAtoD.ClkConfigMainPanel_TABBED_PANE, PAResourceAtoD.ClkConfigMainPanel_ADVANCED_CLOCKING, "Advanced Clocking", 1); // i (p, r)
+// Elapsed time: 17 seconds
+expandTreeTable(PAResourceAtoD.AdvClkConfigTreeTablePanel_TREE_TABLE, "Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks", 0); // e (O, r)
+selectTreeTable(PAResourceAtoD.AdvClkConfigTreeTablePanel_TREE_TABLE, "CPU ; ARM PLL ; 2 ; NA ; 666.666687 ; 50.0 : 667.0 ; Processor/Memory Clocks", 1, "50.0 : 667.0", 5, false); // e (O, r)
+expandTreeTable(PAResourceAtoD.AdvClkConfigTreeTablePanel_TREE_TABLE, "CPU ; ARM PLL ; 2 ; NA ; 666.666687 ; 50.0 : 667.0 ; Processor/Memory Clocks", 1); // e (O, r)
+selectTreeTable(PAResourceAtoD.AdvClkConfigTreeTablePanel_TREE_TABLE, "CPU ; ARM PLL ; 2 ; NA ; 666.666687 ; 50.0 : 667.0 ; Processor/Memory Clocks", 1, "50.0 : 667.0", 5, false, false, false, false, false, true); // e (O, r) - Double Click
+selectTreeTable(PAResourceAtoD.AdvClkConfigTreeTablePanel_TREE_TABLE, "CPU ; ARM PLL ; 2 ; NA ; 666.666687 ; 50.0 : 667.0 ; Processor/Memory Clocks", 1, "666.666687", 4, false); // e (O, r)
+selectTreeTable(PAResourceAtoD.AdvClkConfigTreeTablePanel_TREE_TABLE, "CPU ; ARM PLL ; 2 ; NA ; 666.666687 ; 50.0 : 667.0 ; Processor/Memory Clocks", 1, "666.666687", 4, false, false, false, false, false, true); // e (O, r) - Double Click
+selectTreeTable(PAResourceAtoD.AdvClkConfigTreeTablePanel_TREE_TABLE, "CPU ; ARM PLL ; 2 ; NA ; 666.666687 ; 50.0 : 667.0 ; Processor/Memory Clocks", 1, "666.666687", 4, false); // e (O, r)
+selectTreeTable(PAResourceAtoD.AdvClkConfigTreeTablePanel_TREE_TABLE, "CPU ; ARM PLL ; 2 ; NA ; 666.666687 ; 50.0 : 667.0 ; Processor/Memory Clocks", 1, "666.666687", 4, false); // e (O, r)
+selectTreeTable(PAResourceAtoD.AdvClkConfigTreeTablePanel_TREE_TABLE, "CPU ; ARM PLL ; 2 ; NA ; 666.666687 ; 50.0 : 667.0 ; Processor/Memory Clocks", 1, "666.666687", 4, false, false, false, false, false, true); // e (O, r) - Double Click
+selectTreeTable(PAResourceAtoD.AdvClkConfigTreeTablePanel_TREE_TABLE, "CPU ; ARM PLL ; 2 ; NA ; 666.666687 ; 50.0 : 667.0 ; Processor/Memory Clocks", 1, "666.666687", 4, false); // e (O, r)
+selectTreeTable(PAResourceAtoD.AdvClkConfigTreeTablePanel_TREE_TABLE, "CPU ; ARM PLL ; 2 ; NA ; 666.666687 ; 50.0 : 667.0 ; Processor/Memory Clocks", 1, "CPU", 0, false); // e (O, r)
+selectTreeTable(PAResourceAtoD.AdvClkConfigTreeTablePanel_TREE_TABLE, "CPU ; ARM PLL ; 2 ; NA ; 666.666687 ; 50.0 : 667.0 ; Processor/Memory Clocks", 1, "CPU", 0, false, false, false, false, false, true); // e (O, r) - Double Click
+selectTreeTable(PAResourceAtoD.AdvClkConfigTreeTablePanel_TREE_TABLE, "CPU ; ARM PLL ; 2 ; NA ; 666.666687 ; 50.0 : 667.0 ; Processor/Memory Clocks", 1, "ARM PLL", 1, false); // e (O, r)
+selectTreeTable(PAResourceAtoD.AdvClkConfigTreeTablePanel_TREE_TABLE, "CPU ; ARM PLL ; 2 ; NA ; 666.666687 ; 50.0 : 667.0 ; Processor/Memory Clocks", 1, "ARM PLL", 1, false, false, false, false, false, true); // e (O, r) - Double Click
+selectTreeTable(PAResourceAtoD.AdvClkConfigTreeTablePanel_TREE_TABLE, "CPU ; ARM PLL ; 2 ; NA ; 666.666687 ; 50.0 : 667.0 ; Processor/Memory Clocks", 1, "2", 2, false); // e (O, r)
+selectTreeTable(PAResourceAtoD.AdvClkConfigTreeTablePanel_TREE_TABLE, "CPU ; ARM PLL ; 2 ; NA ; 666.666687 ; 50.0 : 667.0 ; Processor/Memory Clocks", 1, "2", 2, false); // e (O, r)
+selectTreeTable(PAResourceAtoD.AdvClkConfigTreeTablePanel_TREE_TABLE, "CPU ; ARM PLL ; 2 ; NA ; 666.666687 ; 50.0 : 667.0 ; Processor/Memory Clocks", 1, "NA", 3, false); // e (O, r)
+selectTreeTable(PAResourceAtoD.AdvClkConfigTreeTablePanel_TREE_TABLE, "CPU ; ARM PLL ; 2 ; NA ; 666.666687 ; 50.0 : 667.0 ; Processor/Memory Clocks", 1, "666.666687", 4, false); // e (O, r)
+selectTreeTable(PAResourceAtoD.AdvClkConfigTreeTablePanel_TREE_TABLE, "CPU ; ARM PLL ; 2 ; NA ; 666.666687 ; 50.0 : 667.0 ; Processor/Memory Clocks", 1, "666.666687", 4, false); // e (O, r)
+// Elapsed time: 19 seconds
+setText("PCW CRYSTAL PERIPHERAL FREQMHZ", (String) null); // z (bc, r)
+setText("PCW CRYSTAL PERIPHERAL FREQMHZ", (String) null); // z (bc, r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_logic_inv_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_logic_inv_Res 
+dismissDialog("Re-customize IP"); // r (cj)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// N (cj):  Re-customize IP : addNotify
+// r (cj): Re-customize IP: addNotify
+// cm (r): Configuration Presets: addNotify
+dismissDialog("Re-customize IP"); // N (cj)
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // k (ci, r)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 11000 ms.
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // k (ci, r)
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // k (ci, r)
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // k (ci, r)
+expandTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "DMA Controller ; DMA Controller ; DMA Controller", 5); // aA (O, r)
+expandTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "PS-PL Cross Trigger interface ; 0 ; Enables PL cross trigger signals to PS and vice-versa", 10); // aA (O, r)
+// Elapsed time: 12 seconds
+selectButton("Zynq Block Design", "Zynq Block Design"); // k (ci, r)
+selectButton("Zynq Block Design", "Zynq Block Design"); // k (ci, r)
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // k (ci, r)
+selectButton("Zynq Block Design", "Zynq Block Design"); // k (ci, r)
+// Elapsed time: 108 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // k (j, cj)
+// Elapsed time: 21 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj, Popup.HeavyWeightWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,302 MB. GUI used memory: 153 MB. Current time: 3/31/19 10:48:05 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,302 MB. GUI used memory: 157 MB. Current time: 3/31/19 11:18:06 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,302 MB. GUI used memory: 157 MB. Current time: 4/1/19 1:48:47 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,302 MB. GUI used memory: 158 MB. Current time: 4/1/19 2:18:48 AM EDT
+// Elapsed time: 14975 seconds
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, cj)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+// Elapsed time: 30 seconds
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "Data_MM2S (32 address bits : 4G) ;  ;  ;  ;  ; ", 13, "Data_MM2S (32 address bits : 4G)", 0, true); // g (O, cj) - Node
+// Elapsed time: 25 seconds
+applyEscape(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, (String) null); // g (O, cj)
+// [GUI Memory]: 223 MB (+2783kb) [77:05:40]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,303 MB. GUI used memory: 157 MB. Current time: 4/1/19 2:48:49 AM EDT
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,303 MB. GUI used memory: 154 MB. Current time: 4/1/19 3:18:49 AM EDT
+// Elapsed time: 2852 seconds
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "axi_ad9361_adc_dma ; s_axi ; axi_lite ; 0x7C40_0000 ; 4K ; 0x7C40_0FFF", 3, "4K", 4, false); // g (O, cj)
+// Elapsed time: 438 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U (q, cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // Z (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (O, cj)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// v (cj): Settings: addNotify
+// 'dw' command handler elapsed time: 6 seconds
+// [Engine Memory]: 1,434 MB (+122486kb) [77:58:40]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (O, cj)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (O, cj)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (O, cj)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,439 MB. GUI used memory: 174 MB. Current time: 4/1/19 3:27:57 AM EDT
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false, false, false, false, false, true); // u (O, cj) - Double Click
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (O, cj)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (O, cj)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 12000 ms.
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, IP]", 6, true); // M (C, v) - Node
+// Elapsed time: 35 seconds
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, IP]", 6, true); // M (C, v) - Node
+expandTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, IP]", 6); // M (C, v)
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, IP]", 6, true, false, false, false, false, true); // M (C, v) - Double Click - Node
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, IP, Repository]", 7, false); // M (C, v)
+selectButton(PAResourceQtoS.SettingsProjectIPRepositoryPage_ADD_REPOSITORY, "Add Repository"); // B (f, v)
+selectButton(PAResourceQtoS.SettingsProjectIPRepositoryPage_ADD_REPOSITORY, "Add Repository"); // B (f, v)
+dismissFolderChooser();
+// [GUI Memory]: 235 MB (+656kb) [78:20:50]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,440 MB. GUI used memory: 172 MB. Current time: 4/1/19 3:58:00 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,440 MB. GUI used memory: 171 MB. Current time: 4/1/19 4:28:00 AM EDT
+// Elapsed time: 5082 seconds
+dismissDialog("Settings"); // v (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,440 MB. GUI used memory: 169 MB. Current time: 4/1/19 4:58:00 AM EDT
+// Elapsed time: 323 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cj): Add Sources: addNotify
+dismissDialog("Add Sources"); // c (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bs (cj):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {/home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.srcs/sources_1/bd/system/system.bd} 
+dismissDialog("Open Block Design"); // bs (cj)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_spdif_tx_core_spdif_tx_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /gpio_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdo_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdo_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /tdd_sync_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /tdd_sync_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_07_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_07_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_06_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_06_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_dac_dma_fifo_rd_underflow 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_dac_dma_fifo_rd_underflow 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_dac_dma_fifo_rd_underflow 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_dac_dma_fifo_rd_underflow 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_dac_dma_fifo_rd_underflow 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_dac_dma_fifo_rd_underflow 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_dac_dma_fifo_rd_underflow 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_dac_dma_fifo_rd_underflow 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_dac_dma_fifo_rd_underflow 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_dac_dma_fifo_rd_underflow 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_dac_dma_fifo_rd_underflow 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_dac_dma_fifo_rd_underflow 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_06_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_06_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_06_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_06_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_07_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_07_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_07_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_07_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_07_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_07_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_07_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_07_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_07_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_07_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_07_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_07_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_07_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_07_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_06_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_06_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_06_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_06_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_06_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_06_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_06_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_06_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_06_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_06_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_06_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_06_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_06_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_06_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_06_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_06_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_06_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_06_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_06_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_06_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_02_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_02_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_00_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_00_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_dma_fifo_wr_overflow 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_dma_fifo_wr_overflow 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_dac_enable_q1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_dac_enable_q1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_r1_mode 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_r1_mode 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_data_q1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_data_q1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_l_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_adc_fifo_dout_valid_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_adc_fifo_dout_valid_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_adc_fifo_dout_data_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_enable_i1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_enable_i1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_valid_q0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_valid_q0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_l_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_l_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_l_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_l_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_l_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_l_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_r1_mode 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_r1_mode 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_r1_mode 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_r1_mode 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_r1_mode 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_r1_mode 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_r1_mode 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_00_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_00_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_dac_r1_mode 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_r1_mode 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_divclk_reset_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_divclk_reset_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_txnrx 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_txnrx 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_concat_intc_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_concat_intc_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_iic_main_iic2intc_irpt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_vdma_fs 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_dma_m_axis_mm2s_tvalid 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_dma_m_axis_mm2s_tvalid 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_dma_m_axis_mm2s_tvalid 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_dma_m_axis_mm2s_tvalid 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_iic_main_iic2intc_irpt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_iic_main_iic2intc_irpt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_iic_main_iic2intc_irpt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_iic_main_iic2intc_irpt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_clkgen_clk_0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_clkgen_clk_0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_clkgen_clk_0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_clkgen_clk_0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_clkgen_clk_0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_clkgen_clk_0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_clkgen_clk_0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_clkgen_clk_0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_clkgen_clk_0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_clkgen_clk_0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_clkgen_clk_0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_clkgen_clk_0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_clkgen_clk_0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_clkgen_clk_0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_clkgen_clk_0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_clkgen_clk_0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_clkgen_clk_0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_clkgen_clk_0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_txnrx 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_txnrx 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_data_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_data_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_data_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_data_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_data_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_data_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_data_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_data_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_data_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_data_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_data_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_data_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_data_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_data_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_data_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_data_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_data_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_data_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_data_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_data_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_data_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_data_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_data_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_data_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_data_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_data_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_enable 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data_e 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data_e 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data_e 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data_e 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data_e 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data_e 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data_e 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data_e 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_data_e 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_vsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_16_hsync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_core_hdmi_out_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tdd_sync_cntr 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_iic_fmc_iic2intc_irpt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_iic_fmc_iic2intc_irpt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_iic_fmc_iic2intc_irpt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_iic_fmc_iic2intc_irpt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_iic_fmc_iic2intc_irpt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_iic_fmc_iic2intc_irpt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_iic_fmc_iic2intc_irpt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_iic_fmc_iic2intc_irpt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_iic_fmc_iic2intc_irpt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_iic_fmc_iic2intc_irpt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_iic_fmc_iic2intc_irpt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_iic_fmc_iic2intc_irpt 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi1_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_SPI1_SS2_O 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_concat_intc_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_concat_intc_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_csn_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_spdif_tx_core_spdif_tx_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_audio_clkgen_clk_out1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_audio_clkgen_clk_out1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /iic_mux_scl_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /iic_mux_sda_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_cpu_resetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /tdd_sync_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /tdd_sync_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_ps7_FCLK_RESET0_N 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /gpio_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /gpio_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /spi0_sdi_i_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_audio_clkgen_clk_out1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_audio_clkgen_clk_out1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_audio_clkgen_clk_out1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_audio_clkgen_clk_out1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_audio_clkgen_clk_out1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_audio_clkgen_clk_out1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_10_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_10_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_dac_dma_irq 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_dac_dma_irq 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_dma_m_axis_mm2s_tdata 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_dma_m_axis_mm2s_tdata 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_dma_m_axis_mm2s_tdata 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_dma_m_axis_mm2s_tdata 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_dma_m_axis_mm2s_tvalid 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_dma_m_axis_mm2s_tvalid 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_dac_dma_irq 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_dac_dma_irq 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_07_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_hdmi_dma_mm2s_introut 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_08_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_08_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_03_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ps_intr_03_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_dma_fifo_wr_overflow 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_adc_pack_adc_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_adc_pack_adc_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_adc_pack_adc_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_adc_pack_adc_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_dac_r1_mode 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_dac_r1_mode 
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// N (cj):  Re-customize IP : addNotify
+// r (cj): Re-customize IP: addNotify
+// Elapsed time: 67 seconds
+dismissDialog("Re-customize IP"); // N (cj)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cj)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_data_i1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_data_i1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_l_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_l_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_enable_q0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_enable_q0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_valid_q0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_valid_q0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_valid_i0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_adc_valid_i0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_rst 
+// Elapsed time: 135 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj, Popup.HeavyWeightWindow)
+// Elapsed time: 11 seconds
+selectMenuItem(PAResourceCommand.PACommandNames_NEW_PROJECT, "New Project..."); // ac (cj, Popup.HeavyWeightWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// g (cj): New Project: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,470 MB. GUI used memory: 177 MB. Current time: 4/1/19 5:02:45 AM EDT
+// Elapsed time: 21 seconds
+selectButton("NEXT", "Next >"); // JButton (h, g)
+// Elapsed time: 25 seconds
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "led_ip"); // X (N, g)
+selectButton("CANCEL", "Cancel"); // JButton (h, g)
+// 'g' command handler elapsed time: 47 seconds
+dismissDialog("New Project"); // g (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cj): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 11 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "led_ip"); // X (N, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// Tcl Command: 'file mkdir /home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.srcs/sources_1/new'
+dismissDialog("Create Source File"); // F (c)
+// Tcl Message: file mkdir /home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.srcs/sources_1/new 
+// Elapsed time: 11 seconds
+selectButton("FINISH", "Finish"); // JButton (h, c)
+// 'h' command handler elapsed time: 30 seconds
+dismissDialog("Add Sources"); // c (cj)
+// Tcl Message: close [ open /home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.srcs/sources_1/new/led_ip.v w ] 
+// Tcl Message: add_files /home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.srcs/sources_1/new/led_ip.v 
+// bs (cj):  Add Sources  : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// I (cj): Define Module: addNotify
+dismissDialog("Add Sources"); // bs (cj)
+// Elapsed time: 19 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_200m_clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rx_data_in_n_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rx_data_in_n_1 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip (led_ip.v)]", 2, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip (led_ip.v)]", 2, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip (led_ip.v)]", 2, false); // B (D, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,515 MB. GUI used memory: 177 MB. Current time: 4/1/19 5:04:35 AM EDT
+// [Engine Memory]: 1,515 MB (+9751kb) [79:35:19]
+selectCodeEditor("led_ip.v", 557, 180); // cd (w, cj)
+// Elapsed time: 10 seconds
+selectCodeEditor("led_ip.v", 300, 163); // cd (w, cj)
+typeControlKey((HResource) null, "led_ip.v", 'v'); // cd (w, cj)
+// Elapsed time: 12 seconds
+typeControlKey((HResource) null, "led_ip.v", 'v'); // cd (w, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // Z (cj)
+selectMenuItem(PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, "Create and Package New IP..."); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD
+// Q (cj): Create and Package New IP: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+// bs (Q):  Analyze source files for top modules : addNotify
+// Elapsed time: 31 seconds
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+dismissDialog("Analyze source files for top modules"); // bs (Q)
+// Elapsed time: 43 seconds
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+selectButton("FINISH", "Finish"); // JButton (h, Q)
+// 'q' command handler elapsed time: 79 seconds
+dismissDialog("Create and Package New IP"); // Q (cj)
+// bs (cj):  IP Packager : addNotify
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: DG_GRAPH_STALE
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Tcl Message: ipx::package_project -root_dir /home/osrc/zed_prj/hdl-2018_r1 -vendor user.org -library user -taxonomy /UserIP 
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'fixed_io_ps_clk' as interface 'fixed_io_ps_clk'. INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'hdmi_out_clk' as interface 'hdmi_out_clk'. INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'spi_clk' as interface 'spi_clk'. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+dismissDialog("IP Packager"); // bs (cj)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 4000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,545 MB. GUI used memory: 185 MB. Current time: 4/1/19 5:06:45 AM EDT
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - system_top", 3); // k (j, cj)
+// Elapsed time: 108 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (O, cj)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// v (cj): Settings: addNotify
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Elapsed time: 15 seconds
+selectButton(PAResourceQtoS.SettingsProjectIPRepositoryPage_ADD_REPOSITORY, "Add Repository"); // B (f, v)
+// Elapsed time: 22 seconds
+setFolderChooser("/home/osrc/zed_prj/hdl-2018_r1");
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property  ip_repo_paths  {/home/osrc/zed_prj/hdl-2018_r1/library /home/osrc/zed_prj/hdl-2018_r1} [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: update_ip_catalog 
+selectButton(PAResourceQtoS.SettingsProjectIPRepositoryPage_ADD_REPOSITORY, "Add Repository"); // B (f, v)
+selectButton(PAResourceQtoS.SettingsProjectIPRepositoryPage_ADD_REPOSITORY, "Add Repository"); // B (f, v)
+// bs (cj):  Refresh All IP Repositories : addNotify
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/osrc/zed_prj/hdl-2018_r1'. INFO: [IP_Flow 19-3656] If you move the project, the path for repository '/home/osrc/zed_prj/hdl-2018_r1' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is '/home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed'.) 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: update_ip_catalog: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 6470.062 ; gain = 0.000 ; free physical = 279 ; free virtual = 4281 
+// c (v): Add Repository: addNotify
+// Elapsed time: 11 seconds
+selectButton(RDIResource.AddRepositoryInfoDialog_OK, "OK"); // a (c)
+selectButton(RDIResource.AddRepositoryInfoDialog_OK, "OK"); // a (c)
+dismissDialog("Add Repository"); // c (v)
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a (v)
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a (v)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (v)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (v)
+dismissDialog("Settings"); // v (cj)
+// [GUI Memory]: 254 MB (+7261kb) [79:40:37]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "led_ip.v", 2); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k (j, cj)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // B (f, cj)
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // B (f, cj)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_frame_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// [GUI Memory]: 269 MB (+3104kb) [79:42:16]
+// Elapsed time: 212 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", (String) null); // OverlayTextField (Q, ResizableWindow)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip (led_ip.v)]", 2, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, led_ip (led_ip.v)]", 2, false, false, false, false, true, false); // B (D, cj) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ac (ai, cj)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// as (cj): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (as)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (as)
+dismissDialog("Remove Sources"); // as (cj)
+// Tcl Message: export_ip_user_files -of_objects  [get_files /home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.srcs/sources_1/new/led_ip.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// as (cj): Remove Sources: addNotify
+// bs (as):  Remove Sources : addNotify
+// Tcl Message: remove_files  /home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.srcs/sources_1/new/led_ip.v 
+dismissDialog("Remove Sources"); // bs (as)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_ad9361_tdd_sync_sync_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rx_data_in_n_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rx_data_in_n_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rx_data_in_n_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rx_data_in_n_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rx_data_in_n_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rx_data_in_n_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rx_data_in_n_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rx_data_in_n_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rx_data_in_n_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rx_data_in_n_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 3, true, false, false, false, true, false); // B (D, cj) - Popup Trigger - Node
+// TclEventType: DG_GRAPH_GENERATED
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, cj)
+selectMenuItem(PAResourceQtoS.SrcMenu_REFRESH_HIERARCHY, "Refresh Hierarchy"); // ac (ai, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,565 MB. GUI used memory: 202 MB. Current time: 4/1/19 5:13:40 AM EDT
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, XDC]", 3, true, false, false, false, true, false); // B (D, cj) - Popup Trigger - Node
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, cj)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, cj)
+selectMenuItem(PAResourceQtoS.SrcMenu_REFRESH_HIERARCHY, "Refresh Hierarchy"); // ac (ai, cj)
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 1,598 MB (+7392kb) [79:44:28]
+// TclEventType: DG_GRAPH_GENERATED
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_NEW_IP_LOCATION, "New IP Location..."); // ac (cj, Popup.HeavyWeightWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_NEW_IP_LOCATION
+// aa (cj): New IP Location: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, aa)
+// 'x' command handler elapsed time: 3 seconds
+dismissDialog("New IP Location"); // aa (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,598 MB. GUI used memory: 183 MB. Current time: 4/1/19 9:31:57 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,598 MB. GUI used memory: 183 MB. Current time: 4/1/19 10:01:59 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,598 MB. GUI used memory: 182 MB. Current time: 4/1/19 10:31:59 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,598 MB. GUI used memory: 182 MB. Current time: 4/1/19 11:02:00 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,598 MB. GUI used memory: 183 MB. Current time: 4/2/19 9:01:22 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,598 MB. GUI used memory: 182 MB. Current time: 4/2/19 9:31:23 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,598 MB. GUI used memory: 182 MB. Current time: 4/2/19 10:01:24 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,598 MB. GUI used memory: 183 MB. Current time: 4/2/19 10:44:19 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,598 MB. GUI used memory: 182 MB. Current time: 4/2/19 11:14:20 PM EDT
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_n 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_ad9361_tx_clk_out_p 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,599 MB. GUI used memory: 181 MB. Current time: 4/2/19 11:44:21 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,599 MB. GUI used memory: 182 MB. Current time: 4/3/19 12:14:21 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,599 MB. GUI used memory: 181 MB. Current time: 4/3/19 1:38:42 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,599 MB. GUI used memory: 179 MB. Current time: 4/3/19 2:08:42 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,599 MB. GUI used memory: 182 MB. Current time: 4/3/19 2:38:43 AM EDT

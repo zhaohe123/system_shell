@@ -1,0 +1,183 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Mar 28 21:28:50 2019
+# Process ID: 73428
+# Current directory: /mnt/workspace/osrc-lab/scripts/rootfs/debian
+# Command line: vivado
+# Log file: /mnt/workspace/osrc-lab/scripts/rootfs/debian/vivado.log
+# Journal file: /mnt/workspace/osrc-lab/scripts/rootfs/debian/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/osrc/zed_prj/hdl-2018_r1/library'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/mnt/workspace/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 6146.023 ; gain = 159.828 ; free physical = 71 ; free virtual = 2651
+update_compile_order -fileset sources_1
+launch_sdk -workspace /home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.sdk -hwspec /home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.sdk/system_top.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace /home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.sdk -hwspec /home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.sdk/system_top.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+open_bd_design {/home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.srcs/sources_1/bd/system/system.bd}
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - sys_ps7
+Adding cell -- xilinx.com:ip:axi_iic:2.0 - axi_iic_main
+Adding cell -- analog.com:user:util_i2c_mixer:1.0 - sys_i2c_mixer
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - sys_concat_intc
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - sys_rstgen
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - sys_logic_inv
+Adding cell -- analog.com:user:axi_clkgen:1.0 - axi_hdmi_clkgen
+Adding cell -- analog.com:user:axi_hdmi_tx:1.0 - axi_hdmi_core
+Adding cell -- xilinx.com:ip:axi_vdma:6.3 - axi_hdmi_dma
+Adding cell -- xilinx.com:ip:clk_wiz:5.4 - sys_audio_clkgen
+Adding cell -- analog.com:user:axi_spdif_tx:1.0 - axi_spdif_tx_core
+Adding cell -- analog.com:user:axi_i2s_adi:1.0 - axi_i2s_adi
+Adding cell -- xilinx.com:ip:axi_iic:2.0 - axi_iic_fmc
+Adding cell -- analog.com:user:axi_ad9361:1.0 - axi_ad9361
+Adding cell -- analog.com:user:util_tdd_sync:1.0 - util_ad9361_tdd_sync
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - util_ad9361_divclk_sel_concat
+Adding cell -- xilinx.com:ip:util_reduced_logic:2.0 - util_ad9361_divclk_sel
+Adding cell -- analog.com:user:util_clkdiv:1.0 - util_ad9361_divclk
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - util_ad9361_divclk_reset
+Adding cell -- analog.com:user:util_wfifo:1.0 - util_ad9361_adc_fifo
+Adding cell -- analog.com:user:util_cpack:1.0 - util_ad9361_adc_pack
+Adding cell -- analog.com:user:axi_dmac:1.0 - axi_ad9361_adc_dma
+Adding cell -- analog.com:user:util_rfifo:1.0 - axi_ad9361_dac_fifo
+Adding cell -- analog.com:user:util_upack:1.0 - util_ad9361_dac_upack
+Adding cell -- analog.com:user:axi_dmac:1.0 - axi_ad9361_dac_dma
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <system> from BD file </home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.srcs/sources_1/bd/system/system.bd>
+open_bd_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:28 . Memory (MB): peak = 6255.852 ; gain = 48.613 ; free physical = 79 ; free virtual = 2166
+WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.061 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.061 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.061 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.061 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.061 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.061 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.061 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.061 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.061 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.061 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.061 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.061 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.061 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.061 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.061 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.061 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.061 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+WARNING: [IP_Flow 19-3258] Validation failed for parameter 'PCW_CRYSTAL_PERIPHERAL_FREQMHZ' with value ''. Invalid long/float value '' specified for parameter 'PCW CRYSTAL PERIPHERAL FREQMHZ(PCW_CRYSTAL_PERIPHERAL_FREQMHZ)' for BD Cell 'sys_ps7'.
+
+WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.061 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+open_bd_design {/home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.srcs/sources_1/bd/system/system.bd}
+file mkdir /home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.srcs/sources_1/new
+close [ open /home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.srcs/sources_1/new/led_ip.v w ]
+add_files /home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.srcs/sources_1/new/led_ip.v
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+ipx::package_project -root_dir /home/osrc/zed_prj/hdl-2018_r1 -vendor user.org -library user -taxonomy /UserIP
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.srcs/sources_1/new/led_ip.v'.
+WARNING: [IP_Flow 19-4963] system_sys_ps7_0 has board value specified. The packaged IP will be restricted to usage with board 'em.avnet.com:zed:part0:1.3'
+WARNING: [IP_Flow 19-4696] The IP Integrator Application Core IP source files for 'system_axi_cpu_interconnect_0' of 'xilinx.com:ip:axi_interconnect:2.1' were included as packaged IP sources.
+WARNING: [IP_Flow 19-4696] The IP Integrator Application Core IP source files for 'system_axi_hp0_interconnect_0' of 'xilinx.com:ip:axi_interconnect:2.1' were included as packaged IP sources.
+WARNING: [IP_Flow 19-4696] The IP Integrator Application Core IP source files for 'system_axi_hp1_interconnect_0' of 'xilinx.com:ip:axi_interconnect:2.1' were included as packaged IP sources.
+WARNING: [IP_Flow 19-4696] The IP Integrator Application Core IP source files for 'system_axi_hp2_interconnect_0' of 'xilinx.com:ip:axi_interconnect:2.1' were included as packaged IP sources.
+INFO: [IP_Flow 19-5151] The Range '15:0' is present in all ports of the interface 'hdmi'. It is assumed that this is meant to declare an array of interface. If this is not the desired behaviour, switch of this feature by disabling the parameter 'ips.enableInterfaceArrayInference'.
+INFO: [IP_Flow 19-5151] The Range '5:0' is present in all ports of the interface 'rx_in_n'. It is assumed that this is meant to declare an array of interface. If this is not the desired behaviour, switch of this feature by disabling the parameter 'ips.enableInterfaceArrayInference'.
+INFO: [IP_Flow 19-5151] The Range '5:0' is present in all ports of the interface 'rx_in_p'. It is assumed that this is meant to declare an array of interface. If this is not the desired behaviour, switch of this feature by disabling the parameter 'ips.enableInterfaceArrayInference'.
+INFO: [IP_Flow 19-5151] The Range '5:0' is present in all ports of the interface 'tx_out_n'. It is assumed that this is meant to declare an array of interface. If this is not the desired behaviour, switch of this feature by disabling the parameter 'ips.enableInterfaceArrayInference'.
+INFO: [IP_Flow 19-5151] The Range '5:0' is present in all ports of the interface 'tx_out_p'. It is assumed that this is meant to declare an array of interface. If this is not the desired behaviour, switch of this feature by disabling the parameter 'ips.enableInterfaceArrayInference'.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'gpio' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'gpio_agc' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'hdmi_0' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'hdmi_1' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'hdmi_10' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'hdmi_11' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'hdmi_12' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'hdmi_13' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'hdmi_14' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'hdmi_15' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'hdmi_2' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'hdmi_3' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'hdmi_4' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'hdmi_5' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'hdmi_6' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'hdmi_7' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'hdmi_8' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'hdmi_9' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'hdmi_e' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rx_in_n_0' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rx_in_n_1' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rx_in_n_2' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rx_in_n_3' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rx_in_n_4' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rx_in_n_5' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rx_in_p_0' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rx_in_p_1' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rx_in_p_2' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rx_in_p_3' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rx_in_p_4' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rx_in_p_5' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'spi_udc' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'tx_out_n_0' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'tx_out_n_1' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'tx_out_n_2' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'tx_out_n_3' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'tx_out_n_4' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'tx_out_n_5' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'tx_out_p_0' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'tx_out_p_1' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'tx_out_p_2' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'tx_out_p_3' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'tx_out_p_4' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'tx_out_p_5' of definition 'analog.com:interface:fifo_wr:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5151] The Range '15:0' is present in all ports of the interface 'hdmi'. It is assumed that this is meant to declare an array of interface. If this is not the desired behaviour, switch of this feature by disabling the parameter 'ips.enableInterfaceArrayInference'.
+INFO: [IP_Flow 19-5151] The Range '5:0' is present in all ports of the interface 'rx_in_n'. It is assumed that this is meant to declare an array of interface. If this is not the desired behaviour, switch of this feature by disabling the parameter 'ips.enableInterfaceArrayInference'.
+INFO: [IP_Flow 19-5151] The Range '5:0' is present in all ports of the interface 'rx_in_p'. It is assumed that this is meant to declare an array of interface. If this is not the desired behaviour, switch of this feature by disabling the parameter 'ips.enableInterfaceArrayInference'.
+INFO: [IP_Flow 19-5151] The Range '5:0' is present in all ports of the interface 'tx_out_n'. It is assumed that this is meant to declare an array of interface. If this is not the desired behaviour, switch of this feature by disabling the parameter 'ips.enableInterfaceArrayInference'.
+INFO: [IP_Flow 19-5151] The Range '5:0' is present in all ports of the interface 'tx_out_p'. It is assumed that this is meant to declare an array of interface. If this is not the desired behaviour, switch of this feature by disabling the parameter 'ips.enableInterfaceArrayInference'.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'ddr_n' of definition 'analog.com:interface:spi_master:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'interface_spi_engine_offload_ctrl' of definition 'analog.com:interface:spi_engine_offload_ctrl:1.0' (from User Repositories).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'i2s' of definition 'analog.com:interface:i2s:1.0' (from User Repositories).
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'fixed_io_ps_clk' as interface 'fixed_io_ps_clk'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'hdmi_out_clk' as interface 'hdmi_out_clk'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'spi_clk' as interface 'spi_clk'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+set_property  ip_repo_paths  {/home/osrc/zed_prj/hdl-2018_r1/library /home/osrc/zed_prj/hdl-2018_r1} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/osrc/zed_prj/hdl-2018_r1/library'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/osrc/zed_prj/hdl-2018_r1'.
+INFO: [IP_Flow 19-3656] If you move the project, the path for repository '/home/osrc/zed_prj/hdl-2018_r1' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is '/home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed'.)
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+update_ip_catalog: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 6470.062 ; gain = 0.000 ; free physical = 279 ; free virtual = 4281
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+export_ip_user_files -of_objects  [get_files /home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.srcs/sources_1/new/led_ip.v] -no_script -reset -force -quiet
+remove_files  /home/osrc/zed_prj/hdl-2018_r1/projects/fmcomms2/zed/fmcomms2_zed.srcs/sources_1/new/led_ip.v
